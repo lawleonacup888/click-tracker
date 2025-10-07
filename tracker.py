@@ -5,7 +5,7 @@ from user_agents import parse as ua_parse
 
 # ====== 🔧 ตั้งค่าพื้นฐาน (ฝังค่าของพี่ไว้เลย) ======
 TELEGRAM_TOKEN = "8231066204:AAF5VV9wRDJzjruYrKq9FIgo-Ee_ieoJPk4"
-CHAT_ID = "7205194061"
+CHAT_ID = "-1003020507755"
 DEST_URL = "https://angpaoap98.com/"
 DB_PATH = "clicks.db"
 
@@ -94,3 +94,4 @@ def track_click():
 if __name__ == "__main__":
     port = int(os.getenv("PORT", "5000"))
     app.run(host="0.0.0.0", port=port)
+
